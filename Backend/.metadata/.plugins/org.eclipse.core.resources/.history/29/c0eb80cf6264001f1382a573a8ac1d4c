@@ -1,0 +1,10 @@
+spring.application.name=OAuthApplication
+
+spring.security.user.name=user
+spring.security.user.password=password
+
+# GitHub OAuth2 Configuration
+spring.security.oauth2.client.registration.github.client-id=Ov23liS0yI5mvH3a7c3D
+spring.security.oauth2.client.registration.github.client-secret=e6d924b92158b4931de38cf50714d539557c6324
+spring.security.oauth2.client.registration.github.scope=read:user,user:email
+
